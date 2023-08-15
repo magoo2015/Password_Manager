@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea40d29b-aaf9-47c4-98b9-6765560324d1" name="Changes" comment="Added Entry fields for Website, email, and password.  Created generate password and add buttons.">
+    <list default="true" id="ea40d29b-aaf9-47c4-98b9-6765560324d1" name="Changes" comment="Added functionality using focus method to have email already available + added functionality to add stored password to file data_text and removed currently displayed info.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692044003953</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added functionality using focus method to have email already available + added functionality to add stored password to file data_text and removed currently displayed info.">
+      <created>1692071429570</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692071429570</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,6 +103,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created initial project.  Set up app window." />
     <MESSAGE value="Added Entry fields for Website, email, and password.  Created generate password and add buttons." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Entry fields for Website, email, and password.  Created generate password and add buttons." />
+    <MESSAGE value="Added functionality using focus method to have email already available + added functionality to add stored password to file data_text and removed currently displayed info." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added functionality using focus method to have email already available + added functionality to add stored password to file data_text and removed currently displayed info." />
   </component>
 </project>
