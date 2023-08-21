@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea40d29b-aaf9-47c4-98b9-6765560324d1" name="Changes" comment="Added messagebox to user a message if any required fields are left blank.  Also will confirm details before adding to data.txt file.">
+    <list default="true" id="ea40d29b-aaf9-47c4-98b9-6765560324d1" name="Changes" comment="Added functionality for generate password button.  Using pyperclip module to enable user to have newly generated password saved to clipboard for usability.">
+      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,16 +14,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2TzJ0FnPuppBpn17zAgWlG7hxGw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -93,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692117545366</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added functionality for generate password button.  Using pyperclip module to enable user to have newly generated password saved to clipboard for usability.">
+      <created>1692118750582</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692118750582</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,10 +121,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Created initial project.  Set up app window." />
     <MESSAGE value="Added Entry fields for Website, email, and password.  Created generate password and add buttons." />
     <MESSAGE value="Added functionality using focus method to have email already available + added functionality to add stored password to file data_text and removed currently displayed info." />
     <MESSAGE value="Added messagebox to user a message if any required fields are left blank.  Also will confirm details before adding to data.txt file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added messagebox to user a message if any required fields are left blank.  Also will confirm details before adding to data.txt file." />
+    <MESSAGE value="Added functionality for generate password button.  Using pyperclip module to enable user to have newly generated password saved to clipboard for usability." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added functionality for generate password button.  Using pyperclip module to enable user to have newly generated password saved to clipboard for usability." />
   </component>
 </project>
