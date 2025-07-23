@@ -1,0 +1,1 @@
+Create a password generator using python and tkinter.  The UI should have a Gen Z vibe. Have ability to save new websites, review websites and credentials.  use json for storage.

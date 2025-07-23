@@ -26,8 +26,10 @@ class PasswordGenerator:
             "cyan": "#06b6d4"
         }
         
-        # Data storage
-        self.data_file = "passwords.json"
+        # Data storage - Use user's documents folder instead of OneDrive
+        import os
+        documents_path = os.path.expanduser("~/Documents")
+        self.data_file = os.path.join(documents_path, "password_vault.json")
         self.passwords_data = self.load_data()
         
         self.setup_ui()
@@ -44,8 +46,13 @@ class PasswordGenerator:
     
     def save_data(self):
         """Save password data to JSON file"""
-        with open(self.data_file, 'w') as f:
-            json.dump(self.passwords_data, f, indent=2)
+        try:
+            # Ensure the directory exists
+            os.makedirs(os.path.dirname(self.data_file), exist_ok=True)
+            with open(self.data_file, 'w') as f:
+                json.dump(self.passwords_data, f, indent=2)
+        except Exception as e:
+            messagebox.showerror("Error", f"Could not save data: {str(e)}\n\nTry running the app as administrator or check OneDrive settings.")
     
     def setup_ui(self):
         """Setup the main UI with Gen Z styling"""
